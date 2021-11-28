@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import MarginBetween from '.';
 
-describe('ExampleComponent', () => {
-  it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
-  })
-})
+describe('index tests', () => {
+  test('default component is exported', () => {
+    expect(MarginBetween).toBeTruthy();
+  });
+});

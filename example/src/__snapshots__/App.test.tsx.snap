@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`example tests matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdvvtL fYAlYH"
+  >
+    <div
+      class="sc-gsDKAQ bHBcAv"
+    >
+      <div
+        class="sc-hKwDye jNowCY"
+        style="margin-right: 100px;"
+      >
+        Child 1
+      </div>
+      <div
+        class="sc-hKwDye jNowCY"
+        style="margin-right: 100px; margin-left: 100px;"
+      >
+        Child 2
+      </div>
+      <div
+        class="sc-hKwDye jNowCY"
+        style="margin-left: 100px;"
+      >
+        Child 3
+      </div>
+    </div>
+    <br />
+    <div
+      class="sc-dkPtRN iEqVaT"
+    >
+      <div
+        class="sc-hKwDye jNowCY"
+        style="margin-bottom: 30px;"
+      >
+        Child 1
+      </div>
+      <div
+        class="sc-hKwDye jNowCY"
+        style="margin-bottom: 30px; margin-top: 30px;"
+      >
+        Child 2
+      </div>
+      <div
+        class="sc-hKwDye jNowCY"
+        style="margin-top: 30px;"
+      >
+        Child 3
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

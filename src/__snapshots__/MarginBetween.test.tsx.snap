@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MarginBetween tests both margins matches snapshot if one child passed 1`] = `
+<DocumentFragment>
+  <div>
+    child1
+  </div>
+</DocumentFragment>
+`;
+
+exports[`MarginBetween tests both margins matches snapshot if two children passed 1`] = `
+<DocumentFragment>
+  <div
+    style="margin-right: 2em; margin-bottom: 1em;"
+  >
+    child1
+  </div>
+  <div
+    style="margin-left: 2em; margin-top: 1em;"
+  >
+    child2
+  </div>
+</DocumentFragment>
+`;
+
+exports[`MarginBetween tests horizontal margin matches snapshot if one child passed 1`] = `
+<DocumentFragment>
+  <div>
+    child1
+  </div>
+</DocumentFragment>
+`;
+
+exports[`MarginBetween tests horizontal margin matches snapshot if two children passed 1`] = `
+<DocumentFragment>
+  <div
+    style="margin-right: 1em;"
+  >
+    child1
+  </div>
+  <div
+    style="margin-left: 1em;"
+  >
+    child2
+  </div>
+</DocumentFragment>
+`;
+
+exports[`MarginBetween tests no margins matches snapshot if no children are passed 1`] = `<DocumentFragment />`;
+
+exports[`MarginBetween tests no margins matches snapshot if one child passed 1`] = `
+<DocumentFragment>
+  <div>
+    child1
+  </div>
+</DocumentFragment>
+`;
+
+exports[`MarginBetween tests no margins matches snapshot if two children passed 1`] = `
+<DocumentFragment>
+  <div>
+    child1
+  </div>
+  <div>
+    child2
+  </div>
+</DocumentFragment>
+`;
+
+exports[`MarginBetween tests vertical margin matches snapshot if one child passed 1`] = `
+<DocumentFragment>
+  <div>
+    child1
+  </div>
+</DocumentFragment>
+`;
+
+exports[`MarginBetween tests vertical margin matches snapshot if two children passed 1`] = `
+<DocumentFragment>
+  <div
+    style="margin-bottom: 1em;"
+  >
+    child1
+  </div>
+  <div
+    style="margin-top: 1em;"
+  >
+    child2
+  </div>
+</DocumentFragment>
+`;
